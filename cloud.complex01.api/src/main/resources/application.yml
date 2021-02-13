@@ -1,0 +1,6 @@
+solon.app:
+  name: demoapi
+  group: water
+
+solon.cloud.water:
+    server: water

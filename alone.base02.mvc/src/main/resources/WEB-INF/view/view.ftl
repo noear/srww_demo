@@ -1,0 +1,10 @@
+<html>
+<body>
+<div>
+    ${message!}
+</div>
+<div>
+    <@footer/>
+</div>
+</body>
+</html>

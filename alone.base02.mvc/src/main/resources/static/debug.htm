@@ -1,0 +1,39 @@
+<html>
+<body>
+<ul>
+    <li><a href="/hello" target="_blank">/hello</a></li>
+    <li></li>
+    <li><a href="/json" target="_blank">/json</a></li>
+    <li></li>
+    <li><a href="/view" target="_blank">/view（带自定义视图组件）</a></li>
+    <li></li>
+    <li><a href="/param/post?name=noear&gender=12" target="_blank">/param/post?name=noear&gender=12</a></li>
+    <li>
+        <form action="/param/post" method="post" target="_blank">
+            <input name="name" value="noear" type="text">
+            <input name="gender" value="12" type="number">
+            <button>/param/post</button>
+        </form>
+    </li>
+    <li>
+        <form action="/param/file" method="post" enctype="multipart/form-data" target="_blank">
+            <input name="name" value="noear" type="text">
+            <input name="file" type="file">
+            <button>/param/file</button>
+        </form>
+    </li>
+    <li><a href="/param/path/noear" target="_blank">/param/path/noear</a></li>
+    <li><a href="/param/model?name=noear&level=1&mail=noear@mail.cn" target="_blank">/param/model?name=noear&level=1&mail=noear@mail.cn</a></li>
+    <li>
+        <form action="/param/model" method="post" target="_blank">
+            <input name="name" value="noear" type="text">
+            <input name="level" value="2" type="number">
+            <input name="mobile" value="18611112222" type="number">
+            <button>/param/model</button>
+        </form>
+    </li>
+    <li><a href="/param/down">/param/down</a></li>
+
+</ul>
+</body>
+</html>
