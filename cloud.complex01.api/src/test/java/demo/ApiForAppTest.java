@@ -14,7 +14,7 @@ import java.util.Map;
  * @author noear 2021/2/11 created
  */
 @RunWith(SolonJUnit4ClassRunner.class)
-@SolonTest(ApiApp.class)
+@SolonTest(App.class)
 public class ApiForAppTest extends HttpTestBase {
     public ONode call(String method, Map<String, Object> args) throws Exception {
         String json = path("/api/v1/app/" + method)

@@ -9,11 +9,11 @@ import org.noear.solon.core.handle.Context;
 /**
  * @author noear 2021/2/10 created
  */
-public class ApiApp {
+public class App {
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.get(ApiApp.class);
+        Logger logger = LoggerFactory.get(App.class);
 
-        Solon.start(ApiApp.class, args).onError(err -> {
+        Solon.start(App.class, args).onError(err -> {
             Context ctx = Context.current();
 
             if (ctx == null) {
