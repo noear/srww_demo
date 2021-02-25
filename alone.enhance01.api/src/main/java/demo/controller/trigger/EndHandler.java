@@ -10,7 +10,7 @@ import org.noear.solon.core.handle.Handler;
  * @author noear 2021/2/10 created
  */
 public class EndHandler implements Handler {
-    Logger logger = LoggerFactory.get(EndHandler.class);
+    static Logger logger = LoggerFactory.getLogger(EndHandler.class);
 
     @Override
     public void handle(Context c) throws Throwable {

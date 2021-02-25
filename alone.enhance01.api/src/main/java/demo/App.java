@@ -10,8 +10,10 @@ import org.noear.solon.core.handle.Context;
  * @author noear 2021/2/10 created
  */
 public class App {
+    static Logger logger = LoggerFactory.getLogger(App.class);
+
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.get(App.class);
+
 
         Solon.start(App.class, args).onError(err -> {
             Context ctx = Context.current();
